@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(2, 102, 2)
+}
+nav{
+    background-color: rgba(10, 150, 10, 0.734)
+}
+h1{
+    text-align:center;
+    color: black;
+    font-family: "lucinda handwriting", cursive;
+}
+.button1 {
+    background-color: red; 
+    border: 1px solid darkred;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+p{
+    color: black;
+    font-family: "lucinda handwriting", cursive;
+}
+
+img{
+    float:right;
+    height: 200px;
+    width: 500px;
+    padding: 25px;
+}

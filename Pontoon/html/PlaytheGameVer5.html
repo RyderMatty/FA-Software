@@ -1,0 +1,43 @@
+<!-- Ryder Matthews, 18020860, Pontoon, 11th Dec 2020 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pontoon - Play the Game</title>
+    <link rel="stylesheet" href = "css/styleplay.css">
+</head>
+    <body>       
+        <div>
+            <nav>
+                <br>
+                <a href="HomePage.html" target="_parent"><button type="button" class="button1">Back to the Home Page</button></a>
+                <a href="ContactPage.html" target="_parent"><button type="button" class="button1">Contact Me!</button></a>
+                <a href="Winner.html" target="_parent"><button type="button" class="button1">Thank You!</button></a>
+                <br></br>
+                <br></br>
+            </nav>
+        </div>
+        <h1>Pontoon - Let's Play</h1>
+        <p>Play the background music or listen to this Spotify playlist while you play</p>
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3rxVfibe1L0" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <audio controls>
+            <source src="audio/Background Music.mp3" type="audio/mpeg">
+        </audio>
+        <img src="images/playingcarddeck.jpg" alt="deck of playing cards" class="cardimg"> 
+        <br></br>
+        <button onclick="Startgame()" class="button2">Start Game</button>
+        <script src = "js/PontoonVer5.js"></script>
+        <p id="play1"></p>
+        <p id="play2"></p>
+        <button onclick="Nextcard()" class="button2">Another card?</button>
+        <p id="play3"></p>
+        <img src="images/poker.jpg" alt="poker cards" class="cardimg">
+        <button onclick="Nextcard2()" class="button2">Another card?</button>
+        <p id="play4"></p>
+        <button onclick="Nextcard3()" class="button2">Another card?</button>
+        <p id="play5"></p>
+        <p id="counter"></p>
+        <p id="total"></p>
+        <button onclick="BustorScore(playertotal)" class="button2">Results</button>
+        <p id="score"></p>
+    </body>
+</html>
